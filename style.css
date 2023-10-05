@@ -1,0 +1,450 @@
+body {
+  background-color: #000;
+  background-image: url(images/medics.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  height: 165px;
+  background-image: url(images/jpg/header.jpg);
+}
+
+#navigation {
+  height:35px;
+  background-color: blue;
+  background-image: url(images/png/nav.png);
+}
+
+#headline {
+  height: 25px;
+  background-color: #020;
+}
+#content {
+ width: 940px;
+ padding: 30px;
+ background-color: rgba(0, 0, 255, 0.247);
+ margin: auto;
+  
+}
+
+#slide{
+  height: 180px;
+  background-image: url(images/hiz.jpg);
+  margin: 15px 0;
+}
+#write-up-1{
+  height: 150px;
+  border: 1px solid white;
+
+  margin: 15px 0;
+  border-radius: 15px;
+}
+#write-up-1 h1 {
+  color: red;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+#write-up-1 p{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: large;
+  line-height: 25px;
+}
+
+
+
+#main-header {
+  width: 1000px;
+  height: 165px;
+  margin: auto;
+  background-color:blue ;
+  background-image: url(images/health.png);
+
+}
+
+#main-navigation {
+  width: 1000px;
+  height: 35px;
+  margin: auto;
+  background-color: #aaa;
+  background-image: url(images/png/nav.png);
+}
+
+#main-navigation a {
+  color: black;
+  text-decoration: none;
+  padding: 0 55px;
+  line-height: 35px;
+  border-left: 1px inset #ccc;
+  border-right: 1px inset #ccc;
+  float: left;
+}
+#main-navigation a:hover {
+  background-image: url(images/jpg/hover.jpg);
+  color: red;
+}
+
+#main-headline {
+  width: 1000px;
+  height: 25px;
+  margin: auto;
+  background-color:white;
+ 
+}
+#main-headline marquee{
+  color: red;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+
+#footer {
+  height: 350px;
+  background-color: lightslategray;
+}
+
+#footer-top {
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+}
+
+.footer-content {
+  width: 210px;
+  height: 300px;
+  margin: 0 15px;
+  float: left;
+}
+.footer-content h2 {
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10px 0;
+  
+
+}
+
+
+
+
+.social{
+  height: 56px;
+  margin: 15px 0;
+}
+
+.social-icon{
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 10px;
+}
+
+.about{
+  height: 650px;
+  
+}
+
+
+
+
+
+.footer-content p{
+  color: black;
+  margin: 15px o;
+  font-size: 15px;
+}
+.footer-content a{
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.footer-content li{
+  line-height: 25px;
+  color: rgb(20, 18, 18);
+  
+}
+
+#footer-bottom {
+  width: 900px;
+  height: 50px;
+  margin: auto;
+ 
+}
+#footer-bottom p {
+  margin: 0;
+  color: red;
+  text-align: center;
+  line-height: 50px;
+}
+#footer-bottom a {
+  color: red;
+  text-decoration: none;
+  
+}
+#footer-bottom a:hover {
+  color: white;
+  text-decoration: underline;
+
+}
+
+#readmore{
+ border: 1px white solid;
+ border-radius: 15px;
+ padding: 15px;
+}
+
+#readmore-picture{
+width: 300px;
+height:300px ;
+margin-right: 15px;
+float:left;
+}
+
+#readmore-picture img{
+width: 300px;
+height: 300px;
+border-radius: 50px;
+
+}
+
+#readmore a{
+ color: #ffff00;
+ text-decoration: none;
+ padding:0  30px;
+}
+
+#readmore a:hover{
+ color: #000;
+ background-color: #ffff00;
+}
+
+#readmore h1{
+color: #ffff00;
+
+}
+
+#readmore p{
+ color:white
+
+}
+
+
+
+
+
+#register td{
+color: white
+
+}
+
+#register{
+line-height: 2rem;
+
+}
+
+#register fieldset{
+border: 1px solid white
+border-radius: 15px;
+margin:30px 0;
+
+}
+
+#register legend{
+background-color:black;
+padding:10px;
+border-radius: 7px;
+font-weight: bold;
+font-size: 18px;
+
+
+}
+
+#register input[ type=text],input[type=password]{
+padding: 7px;
+border:1px solid red;
+border-radius: 5px;
+
+
+}
+
+#register input[type=text]:focus,input[type=password]:focus{
+background-color:yellow ;
+width:105%;
+
+}
+
+#register input[type=submit],input [ type=reset]{
+background-color: #002200;
+color:white;
+border:none;
+padding: 10px 30px;
+border-radius: 7px;
+cursor: pointer;
+
+}
+
+#register input[type=submit]:hover, input[type=reset]:hover{
+background-color: #002200;
+color:#ff0;
+
+
+}
+
+#register textarea{
+padding:7px;
+border: 1px solid #555555
+border-radius:5px;
+resize:none;
+
+}
+
+#register input[type=file], select{
+padding:7px;
+border: 1px solid black
+border-radius:5px;
+}
+
+#contact table{
+  color:white;
+  border: solid 1px white;
+  border-collapse: collapse;
+}
+
+#contact th{
+border: solid 1px white;
+padding: 10px;
+background-color: white;
+color: black;
+}
+
+#contact td{
+  border: solid 1px white;
+  padding: 10px;
+  }
+
+  #contact a{
+      color: black;
+      background: white;
+      text-decoration:none;
+      text-align:center;
+
+  }
+
+  #contact a:hover{
+     color: #ffffcc;
+     text-decoration: underline;
+
+  }
+
+  .branch{
+      color: white;
+      background: #006600;
+      text-align: center;
+
+  }
+
+  .address{
+    color:white;
+    background:blue;
+    text-align:center;
+
+  }
+
+
+  .phone-number{
+    color:white;
+    background:green;
+    text-align:center;
+
+  }
+
+
+
+
+
+
+
+
+   
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+ 
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} 
+
+#services{
+  line-height: 2rem;
+  
+  
+  }
